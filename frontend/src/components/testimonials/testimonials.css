@@ -1,0 +1,106 @@
+.testimonials {
+  padding: 80px 20px;
+  text-align: center;
+  background-color: #ff9a8b; /* Default color */
+  transition: background-color 0.5s ease-in-out;
+  color: #fff;
+}
+
+.testimonials h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.testimonials-container {
+  overflow: hidden; /* Hides overflowing content */
+  width: 100%;
+  position: relative;
+}
+
+.testimonials-wrapper {
+  display: flex;
+  gap: 20px;
+  animation: scroll-left 20s linear infinite; /* Infinite scrolling animation */
+}
+
+.testimonial-card {
+  background-color: rgba(255, 255, 255, 0.1); /* Slight transparent overlay */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 15px;
+  flex-shrink: 0;
+  width: 300px; /* Fixed width for cards */
+  text-align: center;
+}
+
+.student-image img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  margin-bottom: 20px;
+}
+
+.message {
+  font-size: 18px;
+  font-style: italic;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.info .name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.info .position {
+  font-size: 16px;
+  color: #ddd;
+}
+
+/* Keyframes for smooth horizontal scrolling */
+@keyframes scroll-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonial-card {
+    width: 80%;
+  }
+}
+
+.home {
+  position: relative;
+  background-image: url("logo.jpg"); /* Replace with your image URL */
+  background-size: 500px 500px; /* Ensure the image covers the entire div */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  height: 40vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent overlay */
+  z-index: 10; /* Layer it below the content */
+}
+
+.home-content {
+  position: relative; /* Keep content above the background and overlay */
+  z-index: 15; /* Ensure content is above the overlay */
+  text-align: center;
+  color: #333; /* Adjust text color for better readability */
+}

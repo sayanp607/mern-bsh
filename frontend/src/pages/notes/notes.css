@@ -1,0 +1,58 @@
+.notes-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.upload-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.upload-form input,
+.upload-form textarea,
+.upload-form button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.upload-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload-form button:hover {
+  background-color: #0056b3;
+}
+
+.notes-list {
+  margin-top: 20px;
+}
+
+.note-item {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.note-item h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #007bff;
+}
+
+.note-item p {
+  margin: 5px 0 0;
+  color: #555;
+}

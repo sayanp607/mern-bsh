@@ -1,0 +1,25 @@
+.refund-container {
+  max-width: 800px; /* Limit the width of the section */
+  margin: 0 auto; /* Center the content */
+  padding: 2rem; /* Add padding for spacing */
+  background-color: #f9f9f9; /* Light background for better readability */
+  border: 1px solid #ccc; /* Optional border for separation */
+  border-radius: 10px; /* Smooth rounded corners */
+}
+
+.refund-container h1 {
+  font-size: 2rem; /* Size for heading */
+  color: #333; /* Dark text for contrast */
+  text-align: center; /* Center the heading */
+  margin-bottom: 1.5rem; /* Space below the heading */
+}
+
+.refund-form {
+  font-size: 1rem; /* Standard text size */
+  color: #555; /* Slightly lighter text color for body */
+  line-height: 1.6; /* Improves readability */
+}
+
+.refund-form p {
+  margin-bottom: 1rem; /* Space between paragraphs */
+}

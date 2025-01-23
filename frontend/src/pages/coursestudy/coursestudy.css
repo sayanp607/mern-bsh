@@ -1,0 +1,99 @@
+.course-study-page {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 80vh;
+  font-family: 'Arial', sans-serif;
+}
+
+.course-study-page img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+h2, h4, h5 {
+  color: #17151a;
+  margin: 10px 0;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #0b1206;
+}
+
+h4 {
+  font-size: 22px;
+  color: #05020a;
+}
+
+h5 {
+  font-size: 20px;
+  color: #0b0a0c;
+}
+
+.btnlink {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.btnlink a {
+  text-decoration: none;
+  background-color: #8a4baf;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.btnlink a:hover {
+  background-color: #6a2b7b;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 768px) {
+  .course-study-page {
+    padding: 30px 15px;
+  }
+
+  .course-study-page img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  h5 {
+    font-size: 18px;
+  }
+
+  .btnlink {
+    gap: 12px;
+  }
+
+  .btnlink a {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+}

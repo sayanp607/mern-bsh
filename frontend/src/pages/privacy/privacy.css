@@ -1,0 +1,16 @@
+.privacy-form {
+  padding: 1rem;
+  border: 1px solid #ccc; /* Optional border for form */
+  border-radius: 5px; /* Rounded corners for the form */
+  background-color: #f9f9f9; /* Light background for better visibility */
+}
+
+.privacy-text p {
+  margin-bottom: 1.5rem; /* Adds spacing between paragraphs */
+  line-height: 1.6; /* Improves readability */
+}
+
+.privacy-text {
+  font-size: 1rem;
+  color: #333; /* Adjust color for better readability */
+}
