@@ -31,10 +31,15 @@ const Header = ({ isAuth,user }) => {
           My Courses
         </Link>
   {user && user.role == "admin" && (
+        <Link to={"/testseries"} onClick={() => setIsMenuOpen(false)}>
+          Test Series
+        </Link>
+        {user && user.role == "admin" && (
           <Link to={"/sendmail"} onClick={() => setIsMenuOpen(false)}>
             Send Notifications
           </Link>
         )}
+
         {isAuth ? (
           <Link to={"/account"} onClick={() => setIsMenuOpen(false)}>
             Account
