@@ -17,6 +17,18 @@ const Home = () => {
           </button>
         </div>
       </div>
+      {/* Floating WhatsApp Icon */}
+      <a
+        href="https://wa.me/9883284104"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="whatsapp-float"
+      >
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" // WhatsApp logo link
+          alt="WhatsApp"
+        />
+      </a>
     </div>
   );
 };

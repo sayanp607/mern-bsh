@@ -41,7 +41,7 @@ const App = () => {
         <Loading />
       ) : (
         <BrowserRouter>
-          <Header isAuth={isAuth} />
+          <Header isAuth={isAuth} user={user}/>
           <Routes>
             <Route path="/" element={<Home />}></Route>
             <Route path="/about" element={<About />} />
