@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./header.css";
 import { Link } from "react-router-dom";
 
-const Header = ({ isAuth,user }) => {
+const Header = ({ isAuth, user }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
@@ -33,7 +33,6 @@ const Header = ({ isAuth,user }) => {
         <Link to={"/mycourse"} onClick={() => setIsMenuOpen(false)}>
           My Courses
         </Link>
-  {user && user.role == "admin" && (
         <Link to={"/testseries"} onClick={() => setIsMenuOpen(false)}>
           Test Series
         </Link>
@@ -42,7 +41,9 @@ const Header = ({ isAuth,user }) => {
             Send Notifications
           </Link>
         )}
-
+        <Link to={"/privacy"} onClick={() => setIsMenuOpen(false)}>
+          Privacy Policy
+        </Link>
         {isAuth ? (
           <Link to={"/account"} onClick={() => setIsMenuOpen(false)}>
             Account

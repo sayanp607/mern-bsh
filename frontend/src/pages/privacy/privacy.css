@@ -1,16 +1,69 @@
-.privacy-form {
-  padding: 1rem;
-  border: 1px solid #ccc; /* Optional border for form */
-  border-radius: 5px; /* Rounded corners for the form */
-  background-color: #f9f9f9; /* Light background for better visibility */
+/* privacy.css */
+.privacy-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
-.privacy-text p {
-  margin-bottom: 1.5rem; /* Adds spacing between paragraphs */
-  line-height: 1.6; /* Improves readability */
+h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
 }
 
-.privacy-text {
-  font-size: 1rem;
-  color: #333; /* Adjust color for better readability */
+.privacy-content {
+  text-align: left;
+}
+
+h2 {
+  font-size: 22px;
+  color: #555;
+  margin-top: 20px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+p {
+  font-size: 16px;
+  color: #f5ecec;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: disc;
+  margin: 10px 20px;
+  padding-left: 20px;
+}
+
+li {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 8px;
+}
+
+strong {
+  color: #d9534f;
+}
+
+@media (max-width: 600px) {
+  .privacy-container {
+    width: 90%;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  p, li {
+    font-size: 14px;
+  }
 }
