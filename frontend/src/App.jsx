@@ -33,6 +33,8 @@ import SubmitAnswer from "./components/SubmitAnswer";
 import Leaderboard from "./components/Leaderboard";
 import LiveClass from "./pages/liveclass/LiveClass";
 import Notification from "./pages/notification/Notification";
+import Test from "./pages/test/Test";
+import Contactus from "./pages/contactus/Contactus";
 const App = () => {
   const { isAuth, user, loading } = UserData();
   return (
@@ -45,8 +47,10 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />}></Route>
             <Route path="/about" element={<About />} />
+            <Route path="/contactus" element={<Contactus />} />
             <Route path="/sendmail" element={<Notification />} />
             <Route path="/createquestion" element={<CreateQuestion />} />
+            <Route path="/testseries" element={<Test />} />
             <Route path="/getquestion" element={<QuestionsList />} />
             <Route path="/submitanswer" element={<SubmitAnswer />} />
             <Route path="/leaderboard" element={<Leaderboard />} />

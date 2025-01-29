@@ -24,6 +24,9 @@ const Header = ({ isAuth,user }) => {
         <Link to={"/about"} onClick={() => setIsMenuOpen(false)}>
           About
         </Link>
+        <Link to={"/contactus"} onClick={() => setIsMenuOpen(false)}>
+          Contact Us
+        </Link>
         <Link to={"/contact"} onClick={() => setIsMenuOpen(false)}>
           Councelling
         </Link>
