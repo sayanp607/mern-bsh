@@ -43,7 +43,7 @@ const App = () => {
         <Loading />
       ) : (
         <BrowserRouter>
-          <Header isAuth={isAuth} user={user}/>
+          <Header isAuth={isAuth} user={user} />
           <Routes>
             <Route path="/" element={<Home />}></Route>
             <Route path="/about" element={<About />} />
@@ -123,7 +123,7 @@ const App = () => {
               element={isAuth ? <AdminUsers user={user} /> : <Login />}
             ></Route>
             <Route path="/terms" element={<Terms />}></Route>
-            <Route path="/privacy" element={<Privacy />}></Route>
+            <Route path="/privacypolicy" element={<Privacy />}></Route>
             <Route path="/refund" element={<RefundPolicy />}></Route>
           </Routes>
           <Footer />
