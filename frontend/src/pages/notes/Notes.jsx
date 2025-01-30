@@ -244,7 +244,7 @@ const Notes = ({ user }) => {
                 </li>
               ))
             ) : (
-              <p>No notes available.</p>
+              <h8>No notes available.</h8>
             )}
           </ul>
         </div>

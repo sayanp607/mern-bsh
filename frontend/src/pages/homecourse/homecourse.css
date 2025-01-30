@@ -1,0 +1,50 @@
+/* Container styles */
+.home-course {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Title styling */
+.course-title {
+  background-color: rgba(188, 175, 222, 0.926);
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.course-title:hover {
+  transform: scale(1.1);
+  background-color: #a5e2ed;
+}
+
+/* Course Card Styling */
+.course-slide {
+  /* background-color: #eef396; */
+  padding: 20px;
+  margin: auto; /* Center slides */
+  border-radius: 10px;
+  box-shadow: 4px  0px 4px 5px rgba(241, 6, 6, 0.821);
+  transition: transform 0.3s ease;
+  width: 90% !important; /* Ensure proper width */
+  max-width: 350px; /* Prevent slides from stretching */
+  text-align: center;
+}
+
+.course-slide:hover {
+  transform: scale(1.1);
+}
+
+/* Slider Arrows */
+.slick-prev:before, .slick-next:before {
+  color: #333;
+}
+
+.slick-prev, .slick-next {
+  z-index: 1;
+}
+
+.slick-slide {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}

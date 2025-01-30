@@ -64,17 +64,17 @@ const ContactUs = () => {
   return (
     <div style={{ textAlign: "center", padding: "50px" }}>
       <h1>Councelling</h1>
-      <p>
+      <h5>
         For any kind of batch related problems or WBJEE related questions, feel
         free to have a "one to one doubt solution" after a payment.
-      </p>
+      </h5>
       <button
         onClick={handlePayment}
         style={{
           padding: "10px 20px",
           fontSize: "16px",
           cursor: "pointer",
-          backgroundColor: "yellow",
+          backgroundColor: "gray",
         }}
       >
         Pay Now

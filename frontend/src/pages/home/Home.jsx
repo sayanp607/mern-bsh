@@ -2,12 +2,13 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./home.css";
 import Testimonials from "../../components/testimonials/Testimonials";
-
+import HomeCourse from "../homecourse/Homecourse";
 const Home = () => {
   const navigate = useNavigate();
   return (
     <div>
       <Testimonials />
+      <HomeCourse />
       <div className="home">
         <div className="home-content">
           <h1>Welcome to Bong Study Hub</h1>

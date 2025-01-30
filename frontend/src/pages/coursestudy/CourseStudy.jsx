@@ -27,7 +27,7 @@ const CourseStudy = ({ user }) => {
           <h5>Duration - {course.duration} weeks</h5>
           <div className="btnlink">
             <Link to={`/lectures/${course._id}`}>
-              <h2>Lectures</h2>
+              <h1>Lectures</h1>
             </Link>
             {/* {user && user.role == "admin" && (
             <Link to={`/createquestion`}>
@@ -47,10 +47,10 @@ const CourseStudy = ({ user }) => {
             <h2>LeaderBoard</h2>
           </Link> */}
             <Link to={`/notes/${course._id}`}>
-              <h2>Notes</h2>
+              <h1>Notes</h1>
             </Link>
             <Link to={`/liveclass`}>
-              <h2>Live Class</h2>
+              <h1>Live Class</h1>
             </Link>
           </div>
         </div>

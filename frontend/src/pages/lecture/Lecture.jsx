@@ -258,7 +258,7 @@ const Lecture = ({ user }) => {
                       </div>
                     ))
                   ) : (
-                    <p>No Lectures Yet!</p>
+                    <h5>No Lectures Yet!</h5>
                   )}
                 </div>
               ))}

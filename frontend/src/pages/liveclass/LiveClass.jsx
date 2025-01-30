@@ -152,7 +152,7 @@ const LiveClass = ({ user }) => {
             </li>
           ))
         ) : (
-          <p>No live classes available.</p>
+          <h8>No live classes available.</h8>
         )}
       </ul>
     </div>

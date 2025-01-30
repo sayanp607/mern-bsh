@@ -80,12 +80,12 @@ const Test = () => {
                       }}
                     />
                   </div>
-                  <p>
+                  <h8>
                     <strong>Batch Name:</strong> WBJEE Test Series Batch
-                  </p>
-                  <p>
+                  </h8>
+                  <h8>
                     <strong>Price:</strong> ₹500
-                  </p>
+                  </h8>
                   <button
                     onClick={handlePayment}
                     style={{
@@ -104,7 +104,7 @@ const Test = () => {
               ) : (
                 <div>
                   <h3>Thank you for your payment!</h3>
-                  <p>Your batch details PDF is ready to download:</p>
+                  <h8>Your batch details PDF is ready to download:</h8>
                   <a
                     href="/react.pdf" // Replace with the actual PDF file URL
                     download
@@ -125,7 +125,7 @@ const Test = () => {
           ) : (
             <div>
               <h3>Hello admin!</h3>
-              <p>Your test series PDF is ready to download:</p>
+              <h8>Your test series PDF is ready to download:</h8>
               <a
                 href="/react.pdf" // Replace with the actual PDF file URL
                 download
