@@ -5,19 +5,19 @@ const TermsAndConditions = () => {
   return (
     <div className="terms-container">
       <h1>Terms and Conditions</h1>
-      <p>
+      <h3>
         Welcome! If you continue to browse and use this website, you are
         agreeing to comply with and be bound by the following terms and
         conditions of use, which together with our privacy policy govern{" "}
         <span className="highlight">Bong Study Hub</span>'s relationship with
         you in relation to this website.
-      </p>
-      <p>
+      </h3>
+      <h3>
         The term <strong>‘Bong Study Hub’</strong> or <strong>‘us’</strong> or{" "}
         <strong>‘we’</strong> refers to the owner of the website. The term{" "}
         <strong>‘you’</strong> refers to the user or viewer of our website.
-      </p>
-      <p>The use of this website is subject to the following terms of use:</p>
+      </h3>
+      <h3>The use of this website is subject to the following terms of use:</h3>
       <ul>
         <li>
           The content of the pages of this website is for your general

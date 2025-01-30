@@ -26,7 +26,6 @@ const Footer = () => {
         <div className="footer-center">
           <p>
             &copy; Bong Study Hub. All rights reserved. <br />
-            Made with ❤️ by <a href="https://example.com">Sayan</a>
           </p>
           <div className="social-links">
             <a
