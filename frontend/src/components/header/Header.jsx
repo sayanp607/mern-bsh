@@ -41,9 +41,9 @@ const Header = ({ isAuth, user }) => {
             Send Notifications
           </Link>
         )}
-        <Link to={"/privacypolicy"} onClick={() => setIsMenuOpen(false)}>
+        {/* <Link to={"/privacypolicy"} onClick={() => setIsMenuOpen(false)}>
           Privacy Policy
-        </Link>
+        </Link> */}
         {isAuth ? (
           <Link to={"/account"} onClick={() => setIsMenuOpen(false)}>
             Account

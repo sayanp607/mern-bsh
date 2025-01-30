@@ -55,9 +55,9 @@ const Footer = () => {
             <Link to="/terms" className="vertical-link">
               Terms & Conditions
             </Link>
-            <Link to="/privacy" className="vertical-link">
+            <a href="/privacy-policy.html" className="vertical-link">
               Privacy Policy
-            </Link>
+            </a>
             <Link to="/refund" className="vertical-link">
               Refunds & Cancellation Policy
             </Link>
