@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./home.css";
 import Testimonials from "../../components/testimonials/Testimonials";
-import HomeCourse from "../homecourse/Homecourse";
+import HomeCourse from "../homecourse/HomeCourse";
 const Home = () => {
   const navigate = useNavigate();
   return (
